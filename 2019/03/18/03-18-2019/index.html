@@ -701,39 +701,27 @@
 
 
   
-    <!-- LOCAL: You can save these files to your site and update links -->
-
-  
-  <script src="https://jjeejj.github.io/js/gitment.js"></script>
-
-<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
-<!-- END LOCAL -->
-
-<script>
-  function renderGitment() {
-    var gitment = new Gitmint({
-      id: window.location.pathname,
-      owner: 'TrainedMedicus',
-      repo: 'gitment-comments',
-      
-        lang: '' || navigator.language || navigator.systemLanguage || navigator.userLanguage,
-      
-      oauth: {
-      
-      
-        client_secret: '079498a5184ae5bfeca050a74c9f763e395ccde5',
-      
-        client_id: '07b27a0f383c53bc1127'
-      }
-    });
-    gitment.render('gitment-container');
-  }
-
-  
-    renderGitment();
-  
-</script>
-
+    
+     
+     
+     
+     
+     <link rel="stylesheet" href="https://www.wenjunjiang.win/css/gitment.css">
+     <script src="https://www.wenjunjiang.win/js/gitment.js"></script>
+     
+         <script type="text/javascript">
+             var gitment = new Gitment({
+                 id: document.location.href, 
+                 owner: '',
+                 repo: '',
+                 oauth: {
+                     client_id: '',
+                     client_secret: ''
+                 }});
+             gitment.render('gitment-container');
+         </script>
+     
+ 
   
 
 
