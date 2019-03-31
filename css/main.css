@@ -1771,7 +1771,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9d9dbf;
+  background: #ff87ff;
 }
 .feed-link,
 .chat {
@@ -2487,7 +2487,7 @@ ul.breadcrumb li+li:last-child {
 .site-meta {
   padding: 20px 0;
   color: #fff;
-  background: $blue-dodger;
+  background: #0684bd;
 }
 @media (max-width: 991px) {
   .site-meta {
